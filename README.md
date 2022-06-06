@@ -1,5 +1,6 @@
 # CryptoShop
 CryptoShop is an e-Commerce cryptocurrency themed website I created in 2021, which supports user account functionality.
+NOTE: To see live demonstration of website functionality, please see the Wiki area on this project (found in the above panel).
 
 Users can: 
 - Create accounts (all details provided are validated and passwords are hashed for security).
