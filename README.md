@@ -3,7 +3,7 @@ CryptoShop is an e-Commerce cryptocurrency themed website I created in 2021, whi
 
 PLEASE NOTE: This website uses a database which is hosted on my universities server, which cannot be accessed without a specific VPN. This may cause some issues when submitting user data, to give a full demonstration of how the website works and looks like, I have provided a video.
 
-**To see live demonstration of website functionality, please see the **Wiki area on this project (found in the above panel).**
+**To see live demonstration of website functionality, please see the Wiki area on this project (found in the above panel).**
 
 Users can: 
 - Create accounts (all details provided are validated and passwords are hashed for security).
