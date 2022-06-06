@@ -1,13 +1,18 @@
 # CryptoShop
-CryptoShop is an e-Commerce cryptocurrency themed website I created in 2021, which supports user account functionality.
-NOTE: To see live demonstration of website functionality, please see the Wiki area on this project (found in the above panel).
+CryptoShop is an e-Commerce cryptocurrency themed website I created in 2021, which supports advanced user account functionality.
+
+PLEASE NOTE: This website uses a database which is hosted on my universities server, which cannot be accessed without a specific VPN. This may cause some issues when submitting user data, to give a full demonstration of how the website works and looks like, I have provided a video.
+**To see live demonstration of website functionality, please see the **Wiki area on this project (found in the above panel).**
 
 Users can: 
 - Create accounts (all details provided are validated and passwords are hashed for security).
-- View items.
-- Add items to wishlist.
-- Add items to basket.
+- View cryptocurrencies.
+- View cryptocurrency information.
+- Add cryptocurrencies to wishlist.
+- Add cryptocurrencies to basket.
 - Checkout
+
+Every action the user can carry out is validated. For example, the creation of accounts has strict guidelines the user has to follow e.g making usernames and passwords, in terms of formatting. Passwords are hashed (using python bcrypt library) and stored in MySQL Database which means plain-text passwords cannot be accessed by anyone. This means the website is secure and robust for users. Payment information is also validated at checkout.
 
 Programming Languages and Tools used:
 - HTML
@@ -26,4 +31,4 @@ To run on local machine:
 - Run 'flask run'
 - Open link to web page on local machine
 
-PLEASE NOTE: This website uses a database which is hosted on my universities server, which cannot be accessed without a specific VPN. This may cause some issues when submitting user data, to give a full demonstration of how the website works and looks like, I have provided a video.
+
